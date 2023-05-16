@@ -1,0 +1,150 @@
+.flex-container * {
+    color:rgb(89, 89, 89);
+    margin: 5px;
+    padding: 0px;
+}
+
+    .add_day_button{
+        box-shadow: inset 0 0 0 3000px rgba(32,188,247,.64);
+        float: left;
+        width: 125px;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 5px;
+        margin-right: 0px;;
+        font-size: 15px;
+        font-family: azo-sans-web, sans-serif;
+        border-radius: 2px;
+        border: 2px solid #fff;
+        font-weight: bold;
+        transition: .5s all;
+    }
+
+    .flex-container {
+       
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    }
+  
+    .flex-container > div {
+    margin: 15px;
+    height: 100%;
+    width: 65%;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+    padding: 0px;
+    background-color: #f1f1f1;
+    }
+
+        .flex-container > div:hover {
+        box-shadow: 0 0 1.5rem rgba(0,0,0,.3);
+        }
+
+        .flex-container h1
+        {
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .flex-container img{ 
+            border: 2px solid white;
+            width: 150px;
+            height: 150px;
+        }
+        .flex-container h2
+        {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .container_day{
+            display: flex;
+        }
+        .div_table{
+
+            font-size: 25px;
+            height: 100%;
+            width: 100%;
+            margin-right: 15px;
+        }
+        table{
+            border-radius: 25px;
+            background-color: #ffffff;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,td,tr{
+            border: 4px solid #f1f1f1;
+            height: 35px;
+        }
+
+        td:nth-child(2) {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 830px) {
+
+            .img_text{ 
+                order: 2;
+            }
+                .flex-container * {
+                    margin: 2px; 
+                    padding: 2px;
+                }
+                .flex-container div{
+                    width: 95%;
+                }
+
+                .flex-container h1{
+                    font-size: 20px;
+                }
+                .flex-container h2{
+                    font-size: 20px;
+                }
+
+
+                .container_day {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .div_table {
+                    order:1;
+                    font-size: 15px;
+                    height: 100%;
+                    width: 100%;
+                }
+                th, td, tr {
+                    border: 2px solid #f1f1f1;
+                    height: 25px;
+                }
+                .container_day img {
+                    display:none;
+                }
+                .container_day > div {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .logo {
+                    display: none;
+                }
+                .user {
+                    float: left;
+                }
+                .user p {
+                    font-size: 15px;
+                    margin: 0px;
+                    padding: 18px;
+                }
+            }
+
+        
+    
+
+        
